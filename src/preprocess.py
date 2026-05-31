@@ -5,6 +5,7 @@ Text cleaning and preprocessing pipeline for the Resume Screening System.
 
 import re
 import string
+from numpy.char import title
 import pandas as pd
 import nltk
 import spacy
@@ -243,11 +244,15 @@ def load_job_description(filepath: str, role_filter: str = None) -> dict:
     title = str(row[title_col]) if title_col else "Unknown Role"
 
     print(f"[preprocess] Job Description loaded: '{title}'")
+    # Add this after detecting text_col
+    skills_col = "skills" if "skills" in df.columns else None
 
+    # Update the return dict
     return {
-        "title": title,
-        "raw_text": raw_text,
+        "title":      title,
+        "raw_text":   raw_text,
         "clean_text": preprocess_text(raw_text),
+        "skills_raw": str(row[skills_col]) if skills_col else raw_text,
     }
 
 
