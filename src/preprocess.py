@@ -276,7 +276,7 @@ if __name__ == "__main__":
     import os
 
     RESUME_PATH = "data/Resume/Resume.csv"
-    JD_PATH     = "data/job_descriptions.csv"
+    JD_PATH= "data/job_descriptions.csv"
 
     # Verify files exist
     for path in [RESUME_PATH, JD_PATH]:

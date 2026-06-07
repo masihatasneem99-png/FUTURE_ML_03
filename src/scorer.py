@@ -151,16 +151,16 @@ def print_score_distribution(ranked_df: pd.DataFrame) -> None:
     scores = ranked_df["Final_Score"]
     print("\n")
     print(f"  SCORE DISTRIBUTION")
-    print(f"  Total candidates : {len(scores)}")
-    print(f"  Highest score    : {scores.max()}%")
-    print(f"  Lowest score     : {scores.min()}%")
-    print(f"  Average score    : {round(scores.mean(), 2)}%")
-    print(f"  Median score     : {round(scores.median(), 2)}%")
+    print(f"  Total candidates: {len(scores)}")
+    print(f"  Highest score : {scores.max()}%")
+    print(f"  Lowest score: {scores.min()}%")
+    print(f"  Average score: {round(scores.mean(), 2)}%")
+    print(f"  Median score: {round(scores.median(), 2)}%")
     print(f"  {'─'*35}")
-    print(f"  Above 50%        : {(scores >= 50).sum()} candidates")
-    print(f"  Above 30%        : {(scores >= 30).sum()} candidates")
-    print(f"  Above 10%        : {(scores >= 10).sum()} candidates")
-    print(f"  Below 10%        : {(scores < 10).sum()} candidates")
+    print(f"  Above 50% : {(scores >= 50).sum()} candidates")
+    print(f"  Above 30% : {(scores >= 30).sum()} candidates")
+    print(f"  Above 10% : {(scores >= 10).sum()} candidates")
+    print(f"  Below 10%: {(scores < 10).sum()} candidates")
 
 
 #Shortlist

@@ -25,6 +25,10 @@ data/
 *.xlsx
 *.pdf
 
+# But DO include ranked results
+!results/ranked_*.csv 
+results/.gitkeep
+
 # Model & cache files
 *.pkl
 *.joblib
