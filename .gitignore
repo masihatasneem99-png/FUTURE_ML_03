@@ -27,7 +27,6 @@ data/
 
 # But DO include ranked results
 !results/ranked_*.csv 
-results/.gitkeep
 
 # Model & cache files
 *.pkl
@@ -50,4 +49,3 @@ desktop.ini
 logs/
 *.log
 output/
-results/

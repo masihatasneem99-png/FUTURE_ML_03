@@ -1,0 +1,119 @@
+Rank,Candidate_ID,Final_Score,Cosine_Score,Skill_Match,Matched_Skills,Missing_Skills,Extra_Skills,Tier
+1,12472574,20.34,3.19,37.5,"api, java, sql","django, express, node.js, python, ruby","analytical, c++, communication, data mining, go, html, javascript, leadership, linux, networking, oracle, presentation, problem solving, tcp/ip, unix",Partial Match
+2,10624813,19.19,0.88,37.5,"java, python, sql","api, django, express, node.js, ruby","agile, aws, bootstrap, c, c++, css, ec2, github, html, javascript, jenkins, jira, mongodb, neural network, oracle, perl, php, project management, rest, soap",Partial Match
+3,51588273,13.72,2.44,25.0,"java, sql","api, django, express, node.js, python, ruby","agile, apache, c, c#, communication, etl, javascript, leadership, oracle, php, project management, scrum",Partial Match
+4,26456899,13.62,2.24,25.0,"java, sql","api, django, express, node.js, python, ruby","c++, communication, excel, linux, transformers",Partial Match
+5,27152464,13.54,2.08,25.0,"python, sql","api, django, express, java, node.js, ruby","agile, bash, communication, confluence, critical thinking, git, go, jira, leadership, linux, mongodb, networking, oracle, perl, postgresql, project management, rest, scrum, shell, time management, unix",Partial Match
+6,82246962,13.31,1.63,25.0,"python, sql","api, django, express, java, node.js, ruby","communication, linux, networking, shell, tcp/ip, unix",Partial Match
+7,21038022,13.31,1.62,25.0,"java, sql","api, django, express, node.js, python, ruby","analytical, c++, communication, css, html, leadership, presentation, problem solving, project management",Partial Match
+8,12011623,13.27,1.53,25.0,"python, sql","api, django, express, java, node.js, ruby","c, c#, collaboration, data analysis, data mining, data warehouse, html, machine learning, oracle, pandas, r, tableau",Partial Match
+9,54227873,12.96,0.92,25.0,"java, python","api, django, express, node.js, ruby, sql","c++, excel, html, leadership, linux, problem solving",Partial Match
+10,20566550,12.94,0.87,25.0,"python, sql","api, django, express, java, node.js, ruby","analytical, c, communication, jira, matlab, oracle, problem solving, r, scrum, time management",Partial Match
+11,11890896,12.93,0.86,25.0,"express, sql","api, django, java, node.js, python, ruby","analytical, c, c++, data analysis, leadership, presentation, problem solving, project management",Partial Match
+12,19396040,12.85,0.69,25.0,"java, python","api, django, express, node.js, ruby, sql","analytical, c, c++, data analysis, excel, project management, r",Partial Match
+13,32985311,12.83,0.66,25.0,"python, sql","api, django, express, java, node.js, ruby","c, project management, r, tableau",Partial Match
+14,23234047,12.82,0.64,25.0,"api, java","django, express, node.js, python, ruby, sql","c, matlab",Partial Match
+15,50328713,12.69,0.39,25.0,"python, sql","api, django, express, java, node.js, ruby","analytical, bash, c++, git, leadership, linux, machine learning, matlab, matplotlib, pandas, r, scikit-learn, seaborn, tensorflow, unix, xgboost",Partial Match
+16,11981094,8.54,4.57,12.5,api,"django, express, java, node.js, python, ruby, sql","c, c#, c++, communication, dash, go, javascript, jenkins, rest, scrum",Weak Match
+17,64468610,7.8,3.11,12.5,api,"django, express, java, node.js, python, ruby, sql","c, c#, c++, communication, dash, go, javascript, jenkins, rest, scrum",Weak Match
+18,28762662,7.8,3.1,12.5,api,"django, express, java, node.js, python, ruby, sql","c, c#, c++, communication, css, dash, go, javascript, jenkins, rest, scrum, teamwork",Weak Match
+19,28078163,7.79,3.07,12.5,api,"django, express, java, node.js, python, ruby, sql","c, c#, c++, communication, dash, go, javascript, jenkins, rest, scrum",Weak Match
+20,31677347,7.78,3.06,12.5,api,"django, express, java, node.js, python, ruby, sql","c, c#, c++, communication, dash, go, javascript, jenkins, rest, scrum",Weak Match
+21,35389360,7.42,2.34,12.5,java,"api, django, express, node.js, python, ruby, sql","collaboration, communication, css, dns, excel, firewall, html, jquery, leadership, linux, mysql, networking, php, tcp/ip, vpn",Weak Match
+22,28505854,7.23,1.97,12.5,java,"api, django, express, node.js, python, ruby, sql","agile, c, c++, computer vision, leadership, linux, machine learning, matlab, networking, rest, restful, scrum, soap, tensorflow, unix",Weak Match
+23,32081266,7.15,1.8,12.5,sql,"api, django, express, java, node.js, python, ruby","collaboration, communication, excel, leadership, oracle, problem solving, project management, spring",Weak Match
+24,13264796,6.93,1.37,12.5,ruby,"api, django, express, java, node.js, python, sql","agile, communication, computer vision, data analysis, data science, presentation, r",Weak Match
+25,22890839,6.82,1.14,12.5,python,"api, django, express, java, node.js, ruby, sql","bash, critical thinking, dns, excel, firewall, linux, networking, puppet, ssl, tcp/ip, vpn",Weak Match
+26,37335325,6.77,1.03,12.5,java,"api, django, express, node.js, python, ruby, sql","agile, c, c#, c++, git, jenkins, jira, linux, scrum",Weak Match
+27,56691064,6.72,0.94,12.5,java,"api, django, express, node.js, python, ruby, sql","c, c#, transformers",Weak Match
+28,47549345,6.7,0.91,12.5,api,"django, express, java, node.js, python, ruby, sql","c++, matlab, spring",Weak Match
+29,31694970,6.7,0.9,12.5,sql,"api, django, express, java, node.js, python, ruby","c, c#, communication, data analysis, excel, presentation, project management",Weak Match
+30,61579998,6.63,0.76,12.5,java,"api, django, express, node.js, python, ruby, sql","agile, c++, data analysis, jira, matlab",Weak Match
+31,38314236,6.55,0.59,12.5,api,"django, express, java, node.js, python, ruby, sql","leadership, matlab",Weak Match
+32,30097175,6.51,0.52,12.5,sql,"api, django, express, java, node.js, python, ruby","c++, excel, html, matlab",Weak Match
+33,19553067,6.5,0.49,12.5,express,"api, django, java, node.js, python, ruby, sql","analytical, excel, problem solving",Weak Match
+34,31684925,6.5,0.51,12.5,express,"api, django, java, node.js, python, ruby, sql","communication, excel, spring",Weak Match
+35,16803215,6.47,0.44,12.5,java,"api, django, express, node.js, python, ruby, sql","communication, critical thinking, go, time management",Weak Match
+36,82125182,6.34,0.19,12.5,java,"api, django, express, node.js, python, ruby, sql","presentation, project management, teamwork",Weak Match
+37,55953734,6.33,0.16,12.5,python,"api, django, express, java, node.js, ruby, sql",None,Weak Match
+38,28630325,1.47,2.94,0.0,None,"api, django, express, java, node.js, python, ruby, sql","agile, bootstrap, c, c#, css, jquery, mysql, perl, php, rest, scrum, soap",Weak Match
+39,10712803,1.24,2.48,0.0,None,"api, django, express, java, node.js, python, ruby, sql",c,Weak Match
+40,55595908,1.1,2.2,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, communication, excel, problem solving",Weak Match
+41,22605864,1.09,2.18,0.0,None,"api, django, express, java, node.js, python, ruby, sql","collaboration, dns, excel, networking",Weak Match
+42,39855211,0.87,1.75,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, communication, critical thinking, time management",Weak Match
+43,26834746,0.84,1.69,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, leadership, project management",Weak Match
+44,38220146,0.82,1.64,0.0,None,"api, django, express, java, node.js, python, ruby, sql","leadership, project management, time management",Weak Match
+45,13149176,0.77,1.55,0.0,None,"api, django, express, java, node.js, python, ruby, sql",time management,Weak Match
+46,47919212,0.76,1.52,0.0,None,"api, django, express, java, node.js, python, ruby, sql","azure, collaboration, css, leadership, networking",Weak Match
+47,21847415,0.75,1.5,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, critical thinking, excel, project management, spring",Weak Match
+48,16911115,0.73,1.46,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, dns, excel, firewall, oracle, problem solving, tcp/ip",Weak Match
+49,14206561,0.7,1.4,0.0,None,"api, django, express, java, node.js, python, ruby, sql","excel, networking, oracle",Weak Match
+50,14049846,0.68,1.37,0.0,None,"api, django, express, java, node.js, python, ruby, sql",None,Weak Match
+51,15601399,0.67,1.34,0.0,None,"api, django, express, java, node.js, python, ruby, sql",communication,Weak Match
+52,18753367,0.64,1.29,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, c, communication, leadership, project management",Weak Match
+53,24647794,0.61,1.21,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, c, c#, c++, communication, leadership, matlab, project management, spring",Weak Match
+54,12488356,0.55,1.1,0.0,None,"api, django, express, java, node.js, python, ruby, sql","agile, leadership, oracle",Weak Match
+55,90280583,0.53,1.06,0.0,None,"api, django, express, java, node.js, python, ruby, sql","confluence, jira, leadership, project management, tableau",Weak Match
+56,17043822,0.52,1.05,0.0,None,"api, django, express, java, node.js, python, ruby, sql","apache, c, communication, excel, leadership, linux, mysql, php, tcp/ip, unix",Weak Match
+57,10219099,0.48,0.96,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, problem solving, teamwork",Weak Match
+58,86209934,0.48,0.96,0.0,None,"api, django, express, java, node.js, python, ruby, sql",communication,Weak Match
+59,19612167,0.48,0.96,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, communication, excel, leadership, project management",Weak Match
+60,23438227,0.48,0.97,0.0,None,"api, django, express, java, node.js, python, ruby, sql","excel, r",Weak Match
+61,25930778,0.47,0.94,0.0,None,"api, django, express, java, node.js, python, ruby, sql",problem solving,Weak Match
+62,44624796,0.46,0.92,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, communication, excel, project management",Weak Match
+63,25608963,0.46,0.93,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, communication, excel, leadership",Weak Match
+64,17926546,0.46,0.92,0.0,None,"api, django, express, java, node.js, python, ruby, sql","excel, leadership, presentation, problem solving, project management",Weak Match
+65,33685075,0.42,0.85,0.0,None,"api, django, express, java, node.js, python, ruby, sql","data analysis, leadership",Weak Match
+66,47276718,0.42,0.84,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, c, communication, excel, matlab, project management",Weak Match
+67,49127329,0.41,0.82,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, leadership, project management",Weak Match
+68,64755882,0.41,0.82,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, c++, communication, linux, neural network, presentation",Weak Match
+69,12518008,0.4,0.81,0.0,None,"api, django, express, java, node.js, python, ruby, sql","critical thinking, leadership",Weak Match
+70,24322804,0.4,0.81,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, c++, communication, leadership, problem solving, teamwork",Weak Match
+71,36517781,0.39,0.79,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, critical thinking, excel, leadership, project management",Weak Match
+72,15139979,0.39,0.78,0.0,None,"api, django, express, java, node.js, python, ruby, sql","critical thinking, leadership, problem solving, project management, time management, transformers",Weak Match
+73,23497307,0.39,0.77,0.0,None,"api, django, express, java, node.js, python, ruby, sql","agile, analytical, communication, excel, jira, leadership, oracle, project management",Weak Match
+74,10030015,0.39,0.78,0.0,None,"api, django, express, java, node.js, python, ruby, sql",None,Weak Match
+75,12022566,0.38,0.77,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, c++, project management, r",Weak Match
+76,25919149,0.38,0.77,0.0,None,"api, django, express, java, node.js, python, ruby, sql","critical thinking, problem solving",Weak Match
+77,27040860,0.38,0.76,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, excel, time management",Weak Match
+78,28923650,0.37,0.74,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, machine learning, matlab",Weak Match
+79,74236636,0.36,0.72,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, excel",Weak Match
+80,86828820,0.34,0.68,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, communication, etl, project management",Weak Match
+81,28628090,0.34,0.68,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, excel, leadership, problem solving, project management",Weak Match
+82,32802563,0.33,0.65,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, excel",Weak Match
+83,28005884,0.32,0.64,0.0,None,"api, django, express, java, node.js, python, ruby, sql",None,Weak Match
+84,28320387,0.32,0.65,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, leadership",Weak Match
+85,15858254,0.32,0.64,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, linux, networking, time management",Weak Match
+86,21807224,0.31,0.62,0.0,None,"api, django, express, java, node.js, python, ruby, sql",aws,Weak Match
+87,25425322,0.31,0.62,0.0,None,"api, django, express, java, node.js, python, ruby, sql","leadership, project management",Weak Match
+88,81125166,0.3,0.59,0.0,None,"api, django, express, java, node.js, python, ruby, sql","excel, problem solving, project management",Weak Match
+89,35651876,0.29,0.59,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, leadership, transformers",Weak Match
+90,30288581,0.28,0.56,0.0,None,"api, django, express, java, node.js, python, ruby, sql","excel, matlab, mysql, vba",Weak Match
+91,30542184,0.24,0.47,0.0,None,"api, django, express, java, node.js, python, ruby, sql",communication,Weak Match
+92,38535335,0.24,0.48,0.0,None,"api, django, express, java, node.js, python, ruby, sql",excel,Weak Match
+93,25797445,0.23,0.46,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, excel, project management",Weak Match
+94,35737840,0.22,0.44,0.0,None,"api, django, express, java, node.js, python, ruby, sql",problem solving,Weak Match
+95,21629057,0.22,0.44,0.0,None,"api, django, express, java, node.js, python, ruby, sql","go, leadership, time management",Weak Match
+96,17488801,0.22,0.45,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, communication, leadership, project management",Weak Match
+97,19397727,0.21,0.43,0.0,None,"api, django, express, java, node.js, python, ruby, sql",communication,Weak Match
+98,14554542,0.2,0.4,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, leadership",Weak Match
+99,28831378,0.2,0.41,0.0,None,"api, django, express, java, node.js, python, ruby, sql",analytical,Weak Match
+100,39835894,0.19,0.39,0.0,None,"api, django, express, java, node.js, python, ruby, sql","linux, project management",Weak Match
+101,77828437,0.18,0.36,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, excel, matlab, presentation",Weak Match
+102,20981299,0.17,0.34,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, project management, r",Weak Match
+103,27756469,0.17,0.33,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, excel, leadership, matlab, problem solving",Weak Match
+104,60004873,0.13,0.27,0.0,None,"api, django, express, java, node.js, python, ruby, sql",leadership,Weak Match
+105,96029688,0.13,0.25,0.0,None,"api, django, express, java, node.js, python, ruby, sql","data analysis, matlab, oracle, problem solving, project management",Weak Match
+106,20882041,0.13,0.27,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, excel, leadership, project management",Weak Match
+107,62071407,0.12,0.24,0.0,None,"api, django, express, java, node.js, python, ruby, sql","collaboration, project management, time management",Weak Match
+108,17108676,0.12,0.25,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, excel, leadership, project management, time management",Weak Match
+109,15941675,0.1,0.2,0.0,None,"api, django, express, java, node.js, python, ruby, sql","analytical, communication, data analysis, presentation, time management",Weak Match
+110,17103000,0.08,0.17,0.0,None,"api, django, express, java, node.js, python, ruby, sql","communication, leadership, project management",Weak Match
+111,36149549,0.07,0.14,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, communication, excel",Weak Match
+112,43752620,0.06,0.13,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, matlab, rest, spark",Weak Match
+113,28631840,0.06,0.12,0.0,None,"api, django, express, java, node.js, python, ruby, sql","leadership, project management",Weak Match
+114,19124258,0.05,0.09,0.0,None,"api, django, express, java, node.js, python, ruby, sql",excel,Weak Match
+115,10985403,0.04,0.08,0.0,None,"api, django, express, java, node.js, python, ruby, sql",machine learning,Weak Match
+116,21298336,0.0,0.0,0.0,None,"api, django, express, java, node.js, python, ruby, sql","excel, leadership",Weak Match
+117,12748557,0.0,0.0,0.0,None,"api, django, express, java, node.js, python, ruby, sql","c, collaboration, leadership, project management, react",Weak Match
+118,35172961,0.0,0.0,0.0,None,"api, django, express, java, node.js, python, ruby, sql",c,Weak Match
