@@ -66,7 +66,7 @@ def _skill_tags(skills_str: str, color: str = "#3b82f6", bg: str = "#eff6ff") ->
     return " ".join(tags)
 
 
-# ── Score distribution summary cards ─────────────────────────────────────────
+#Score distribution summary cards
 
 def _summary_cards(ranked_df: pd.DataFrame, jd: dict) -> str:
     """Build the top summary stat cards section."""
@@ -96,7 +96,7 @@ def _summary_cards(ranked_df: pd.DataFrame, jd: dict) -> str:
     return html
 
 
-# ── Candidates table ──────────────────────────────────────────────────────────
+#Candidates table 
 
 def _candidates_table(ranked_df: pd.DataFrame) -> str:
     """Build the main candidates ranking table."""
@@ -147,22 +147,15 @@ def _candidates_table(ranked_df: pd.DataFrame) -> str:
     return header + rows + footer
 
 
-# ── Full HTML page ────────────────────────────────────────────────────────────
+# Full HTML page
 
 def generate_html_report(ranked_df: pd.DataFrame, jd: dict) -> str:
     """
     Generate a complete self-contained HTML report string.
-
-    Args:
-        ranked_df : Full ranked DataFrame (output of build_ranked_results).
-        jd        : Job description dict (output of load_job_description).
-
-    Returns:
-        HTML string ready to be written to a .html file.
     """
-    summary_cards     = _summary_cards(ranked_df, jd)
-    candidates_table  = _candidates_table(ranked_df)
-    top_candidate     = ranked_df.iloc[0]
+    summary_cards = _summary_cards(ranked_df, jd)
+    candidates_table = _candidates_table(ranked_df)
+    top_candidate = ranked_df.iloc[0]
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -308,8 +301,7 @@ def generate_html_report(ranked_df: pd.DataFrame, jd: dict) -> str:
     return html
 
 
-# ── Save report ───────────────────────────────────────────────────────────────
-
+#  Save report 
 def save_html_report(
     ranked_df  : pd.DataFrame,
     jd         : dict,
@@ -318,13 +310,6 @@ def save_html_report(
     """
     Generate and save the HTML report to disk.
 
-    Args:
-        ranked_df  : Ranked DataFrame from build_ranked_results().
-        jd         : Job description dict.
-        output_dir : Folder to save into (defaults to ../results).
-
-    Returns:
-        Path to the saved HTML file.
     """
     if output_dir is None:
         output_dir = os.path.join(
@@ -344,7 +329,7 @@ def save_html_report(
     return filepath
 
 
-# ── Quick test ────────────────────────────────────────────────────────────────
+#Quick test
 
 if __name__ == "__main__":
     import sys
